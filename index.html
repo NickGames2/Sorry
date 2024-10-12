@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem Dedication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dedicar un poema</h1>
+        <p>Ingresa tu nombre:</p>
+        <input type="text" id="nameInput" placeholder="Enter a name...">
+        <button onclick="dedicatePoem()">Dedicar</button>
+
+        <div id="poemSection" class="poem-section">
+            <h2>Poema para <span id="personName"></span></h2>
+            <p id="poemText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
